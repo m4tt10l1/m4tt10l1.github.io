@@ -25,7 +25,7 @@ slug: backend/backend
 <label>Risorsa</label> <input type="text" name="resource" value="_data/builder/post-2.json" />
 </div>
 <div>
-  <label>Dati</label> <textarea name="data">{{ site.data.builder["post-1"] | jsonify }}</textarea>
+  <label>Dati</label> <textarea name="data" class="container" rows="30">{{ site.data.builder["post-1"] | jsonify }}</textarea>
 </div>
 <div class="text-center">
   <button name="submit_data" type="submit" class="btn btn-primary">salva</button>
